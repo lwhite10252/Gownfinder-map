@@ -1,0 +1,107 @@
+﻿body{
+    overflow: hidden;
+    height:100%;
+    background-color: #fff;
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+    margin-left: 0px;
+	margin-top: 0px
+}
+
+a{
+    font-family: garamond, verdana, arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #833f33;
+    text-decoration: none
+}
+
+.container{
+    position: absolute
+}
+
+.BingMap{
+    position: absolute;
+    min-height: 100%;
+    left: 10px;
+	z-index: 0
+}
+
+.MainFrame{
+    position: absolute;
+    overflow: hidden;
+	border: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /*background: rgba(157, 113, 66, 0.3);*/
+    background: rgba(195, 184, 188, 0.4);
+    top: 0px;
+    height: 385px;  
+    width: 1025px;
+    right: 10px;
+    padding-right: 6px
+}
+
+.buttonDiv{
+    position: absolute;
+    float: right;
+    top: 407px;
+    right: 10px;
+    width: 1025px
+}
+
+.buttons{
+	height: 32px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: solid 2px #2e251c;
+    margin-left:1px;
+	background-color: #2e251c;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+.slideshow{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    bottom: 0px;
+    right: 10px;
+	width: 1030px;
+	height: 489px
+}
+
+.gownSlideshow{
+    position: absolute;
+    width: 5225px;
+    animation: slider 25s infinite;
+	-webkit-animation: slider 25s infinite
+}
+
+@keyframes slider{
+	0% {left: 0;} /*beginning with image 1*/
+	20% {left: 0;} /*original position*/
+	25% {left: -1034px;} /*pic animates to next pic */
+	45% {left: -1034px;}
+	50% {left: -2068px;}
+	70% {left: -2068px;}
+	75% {left: -3102px;}
+	95% {left: -3102px;}
+	100% {left: -4136px;}
+}
+
+@-webkit-keyframes slider {
+	0% {left: 0;}
+	20% {left: 0;}
+	25% {left: -1034px;}
+	45% {left: -1034px;}
+	50% {left: -2068px;}
+	70% {left: -2068px;}
+	75% {left: -3102px;}
+	95% {left: -3102px;}
+	100% {left: -4136px;}
+}

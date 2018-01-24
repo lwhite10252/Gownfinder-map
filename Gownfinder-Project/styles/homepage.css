@@ -1,0 +1,50 @@
+﻿body{
+    /*font: bold 12pt garamond, verdana, arial, sans-serif;*/
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    font-weight: 400;
+    color: #2e251c;
+    overflow: hidden
+}
+
+a{
+    font-family: garamond, verdana, arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #833f33;
+    text-decoration: none
+}
+
+.logoimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.searchbox{
+    font: normal 16px verdana, arial, sans-serif;
+    color: #2e251c;
+    background-color: #ffffff;
+	height: 30px;
+    width: 400px;
+    border: 2px none #ffffff;
+    padding-left: 10px
+}
+
+.divLeft{
+    position: absolute;
+    overflow: hidden;
+    left: 15px;
+    width:490px;
+    height:100%;
+    margin: 10 10 10 10
+}
+
+.divRight{
+    position: absolute;
+    overflow: hidden;
+    right: 15px;
+    width:490px;
+    height:100%;
+    margin: 10 10 10 10
+}
